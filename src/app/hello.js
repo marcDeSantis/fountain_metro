@@ -3,5 +3,8 @@ export const hello = {
   controller() {
     this.hello = 'Hello World!';
     this.myName = 'Marc';
+    this.colors = [
+      'blue', 'red', 'green'
+    ];
   }
 };
