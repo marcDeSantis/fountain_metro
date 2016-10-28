@@ -6,5 +6,6 @@ export const hello = {
     this.colors = [
       'blue', 'red', 'green'
     ];
-  }
+  },
+  controllerAs: 'bunny'
 };

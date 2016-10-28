@@ -1,10 +1,10 @@
 <div class="container">
   <div class="jumbotron">
-    <h1>{{ $ctrl.hello }} {{ $ctrl.myName }}</h1>
-    <p><input type="text" name="myName" ng-model="$ctrl.myName">
+    <h1>{{ bunny.hello }} {{ bunny.myName }}</h1>
+    <p><input type="text" name="myName" ng-model="bunny.myName">
     <p><button type="button" class="btn btn-success">Success</button>
 
-    <div ng-repeat="color in $ctrl.colors">
+    <div ng-repeat="color in bunny.colors">
       <span style="color: {{ color }}">{{ color }}</span>
     </div>
   </div>
